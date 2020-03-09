@@ -1,1 +1,32 @@
 /* Add your CSS code below */
+
+/*
+1. Make the links in the messages red and bold, and remove the underline.
+2. Increase the font size of the message times to `0.9rem`.
+3. Put a blue border on the left side of the last message to show it is unread.
+4. Make yesterday's message partially transparent to show it is old.
+5. Increase the space between each line in a message.
+*/
+
+a {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.message__time {
+  font-size: 0.9rem;
+}
+
+.message--unread {
+  border-left: 20px solid blue;
+}
+
+/* This doesn't work :( */
+.message__time--old {
+  opacity: 0.5;
+}
+
+.message {
+  line-height: 2em;
+}
