@@ -22,9 +22,8 @@ a {
   border-left: 20px solid blue;
 }
 
-/* This doesn't work :( */
 .message__time--old {
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 .message {
